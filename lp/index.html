@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMBiz Store LP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <p>🚚 10日以内発送 / 30日返品保証 / 送料全国一律</p>
+    </header>
+
+    <main class="container">
+      <section class="hero card">
+        <div>
+          <p class="eyebrow">人気ショップLPを参考にしたCV重視レイアウト</p>
+          <h1 id="product-name">おすすめ商品</h1>
+          <p id="hero-hook" class="lead"></p>
+          <div class="price-row">
+            <span class="old-price" id="old-price">¥0</span>
+            <span class="price" id="price">¥0</span>
+            <span class="badge">本日限定 20%OFF</span>
+          </div>
+          <ul class="benefits" id="benefits"></ul>
+          <button class="cta">今すぐチェックする</button>
+          <p class="note">※在庫に限りがあります。決済は安全なSSLで保護されています。</p>
+        </div>
+        <div class="hero-visual">
+          <div class="mock-image">PRODUCT<br />IMAGE</div>
+          <div class="trust">
+            <span>⭐ 4.7/5</span>
+            <span>レビュー 1,200+</span>
+            <span>返品率 2.1%</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-proof card">
+        <h2>選ばれる理由</h2>
+        <div class="grid-3" id="value-cards"></div>
+      </section>
+
+      <section class="comparison card">
+        <h2>他の選択肢との比較</h2>
+        <table>
+          <thead>
+            <tr><th>項目</th><th>当商品</th><th>一般的な類似品</th></tr>
+          </thead>
+          <tbody id="comparison-body"></tbody>
+        </table>
+      </section>
+
+      <section class="reviews card">
+        <h2>お客様レビュー</h2>
+        <div id="reviews" class="grid-3"></div>
+      </section>
+
+      <section class="faq card">
+        <h2>FAQ</h2>
+        <div id="faq"></div>
+      </section>
+    </main>
+
+    <div class="sticky-cta">
+      <span id="sticky-copy">本日限定オファー</span>
+      <button>購入ページへ</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

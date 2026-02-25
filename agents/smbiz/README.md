@@ -13,8 +13,11 @@
 ## 出力物
 - `data/outputs/smbiz_recommendations.json`: 全候補の機械可読スコア
 - `data/outputs/smbiz_recommendations.md`: Top3と訴求案
+- `lp/lp_data.json`: LP反映用のトップ商品データ
+- `lp/index.html`: 人気ショップ設計を参考にしたLPテンプレート
 
 ## 実行
 ```bash
 python3 scripts/run_smbiz_agents.py
+python3 scripts/build_smbiz_lp.py
 ```

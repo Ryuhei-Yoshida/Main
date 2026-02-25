@@ -1,4 +1,4 @@
-.PHONY: daily weekly smbiz all clean
+.PHONY: daily weekly smbiz smbiz-lp all clean
 
 daily:
 	python3 scripts/run_daily_pipeline.py
@@ -14,3 +14,8 @@ clean:
 
 smbiz:
 	python3 scripts/run_smbiz_agents.py
+
+
+smbiz-lp:
+	python3 scripts/run_smbiz_agents.py
+	python3 scripts/build_smbiz_lp.py
