@@ -1,0 +1,11 @@
+# Runtime artifacts
+/data/processed/*.csv
+/data/outputs/*.md
+/data/outputs/*.json
+/data/logs/*.log
+
+# Keep directories
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
+!/data/outputs/.gitkeep
+!/data/logs/.gitkeep

@@ -39,6 +39,7 @@
 3. 投稿は `templates/` のテンプレートを使って標準化する
 4. `configs/kpi_targets.yaml` に実績値を追記し、週次レビューする
 
+
 ## ガバナンス原則
 - 予測や主張は必ず根拠データを紐づける
 - 公開前にFact-check + 人間責任者レビューを必須化
@@ -48,3 +49,4 @@
 - `data/` と `notebooks/` を追加し、再現用データ分析基盤を整備
 - `scripts/` にETLと投稿下書き生成を自動化するCLIを実装
 - `dashboard/` でKPI可視化（Looker Studio or Metabase）
+
