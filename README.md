@@ -40,16 +40,6 @@
 4. `configs/kpi_targets.yaml` に実績値を追記し、週次レビューする
 
 
-## 自動実行（ローカル）
-- 日次実行: `make daily`
-- 週次レビュー生成: `make weekly`
-- 一括実行: `make all`
-
-生成物:
-- `data/outputs/daily_report.md`
-- `data/outputs/run_summary.json`
-- `data/outputs/weekly_review.md`
-
 ## ガバナンス原則
 - 予測や主張は必ず根拠データを紐づける
 - 公開前にFact-check + 人間責任者レビューを必須化
@@ -60,9 +50,3 @@
 - `scripts/` にETLと投稿下書き生成を自動化するCLIを実装
 - `dashboard/` でKPI可視化（Looker Studio or Metabase）
 
-
-## マージ前チェック（CI）
-- GitHub Actionsで `make all` と `pytest` を自動実行
-- ローカルでも次を実行してからPR作成推奨
-  - `make all`
-  - `python3 -m pytest -q`
