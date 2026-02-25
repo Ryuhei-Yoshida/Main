@@ -59,3 +59,10 @@
 - `data/` と `notebooks/` を追加し、再現用データ分析基盤を整備
 - `scripts/` にETLと投稿下書き生成を自動化するCLIを実装
 - `dashboard/` でKPI可視化（Looker Studio or Metabase）
+
+
+## マージ前チェック（CI）
+- GitHub Actionsで `make all` と `pytest` を自動実行
+- ローカルでも次を実行してからPR作成推奨
+  - `make all`
+  - `python3 -m pytest -q`
