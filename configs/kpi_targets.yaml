@@ -1,0 +1,13 @@
+kpi_targets:
+  social:
+    x_followers_year1: 20000
+    youtube_subscribers_year1: 10000
+    newsletter_subscribers_year1: 5000
+  revenue:
+    paid_member_cvr_min: 0.04
+    paid_member_cvr_max: 0.08
+    monthly_churn_max: 0.05
+    member_ltv_min_jpy: 10000
+  quality:
+    report_correction_rate_max: 0.01
+    post_lead_time_target_minutes: 120
