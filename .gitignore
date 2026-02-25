@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# Runtime artifacts
+/data/raw/*.json
+/data/processed/*.json
+/data/reports/*.md
+/data/logs/*.csv
