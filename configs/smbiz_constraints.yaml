@@ -1,0 +1,15 @@
+smbiz_constraints:
+  target_region: Japan
+  ad_channel: Meta Ads
+  business_model: dropshipping
+  max_cogs_ratio: 0.35
+  min_gross_margin: 0.60
+  max_shipping_days: 10
+  forbidden_claims:
+    - 医療効果の断定
+    - ビフォーアフターの誇大表現
+    - 個人属性を断定する表現
+  lp_requirements:
+    - ファーストビューでベネフィットを1文で明示
+    - FAQに配送日数と返品条件を明記
+    - レビューは出典と取得方法を記載
