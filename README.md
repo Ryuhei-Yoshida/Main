@@ -50,3 +50,14 @@
 - `scripts/` にETLと投稿下書き生成を自動化するCLIを実装
 - `dashboard/` でKPI可視化（Looker Studio or Metabase）
 
+
+
+## 追加ユースケース: 無在庫×自社LP×Meta広告
+- `agents/smbiz/README.md` に、複数エージェントで商品選定精度を高める構成を追加
+- `workflows/smbiz_pipeline.md` で運用手順を標準化
+- `scripts/run_smbiz_agents.py` で商品候補のスコアリングとTop3提案を自動生成
+
+クイック実行:
+```bash
+python3 scripts/run_smbiz_agents.py
+```
